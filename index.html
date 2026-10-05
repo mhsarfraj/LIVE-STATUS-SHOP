@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jain Auto Parts & Service Centre | Live Shop Status</title>
+<meta name="description" content="Check whether Jain Auto Parts & Service Centre is open right now, see today's timings, and contact the shop.">
+<link rel="icon" href="assets/logo.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="container nav">
+  <a class="brand" href="#top"><span class="brand-mark">J</span><span><b>JAIN</b><small>AUTO PARTS & SERVICE CENTRE</small></span></a>
+  <nav><a href="#status">Live Status</a><a href="#services">Services</a><a href="#visit">Visit Us</a><a class="admin-link" href="admin.html">Owner Login</a></nav>
+  <button class="menu" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+<main id="top">
+<section class="hero"><div class="hero-art"><img src="assets/bluecarhero.webp" alt="Car"></div><div class="container hero-grid">
+  <div class="hero-copy"><div class="eyebrow"><i></i> CUSTOMER LIVE STATUS</div><h1>Know before you <em>drive.</em></h1><p>Check if Jain Auto Parts & Service Centre is open before you visit. Our owner can update the live shop status from anywhere.</p><div class="hero-actions"><a class="btn primary" href="#status">Check Live Status <span>↓</span></a><a class="btn ghost" id="heroCall" href="tel:+919999999999">Call Shop</a></div></div>
+  <div class="floating-card"><span class="mini-label">TODAY</span><strong id="todayDate">—</strong><span id="todayHours">Hours loading…</span></div>
+</div></section>
+<section class="status-wrap" id="status"><div class="container">
+  <div class="status-card" id="statusCard"><div class="status-top"><div><div class="eyebrow">LIVE SHOP STATUS</div><h2 id="shopName">Jain Auto Parts & Service Centre</h2></div><span class="live-pill"><i></i> LIVE</span></div>
+    <div class="status-main"><div class="status-icon" id="statusIcon">✓</div><div><div class="status-word" id="statusWord">Checking…</div><p id="statusMessage">Connecting to the shop's live status.</p><div class="countdown" id="countdown"></div></div></div>
+    <div class="status-meta"><div><span>Next update</span><b id="nextOpen">—</b></div><div><span>Last updated</span><b id="lastUpdated">—</b></div><div><span>Today's hours</span><b id="hours">—</b></div></div>
+  </div>
+</div></section>
+<section class="section" id="services"><div class="container"><div class="section-head"><div><div class="eyebrow">WHAT WE DO</div><h2>Parts, repairs & service.</h2></div><p>Reliable automotive support for everyday maintenance, repairs and genuine-quality parts.</p></div>
+<div class="service-grid"><article><span>01</span><h3>Auto Parts</h3><p>Filters, brakes, batteries, lubricants, electrical and essential replacement parts.</p></article><article><span>02</span><h3>General Service</h3><p>Routine maintenance, inspections, oil changes and vehicle health checks.</p></article><article><span>03</span><h3>Diagnostics</h3><p>Electrical troubleshooting, warning-light checks and practical repair support.</p></article><article><span>04</span><h3>Quick Repairs</h3><p>Get common vehicle issues checked before they become expensive problems.</p></article></div>
+</div></section>
+<section class="showcase"><div class="container showcase-grid"><div class="showcase-copy"><div class="eyebrow">WHY CHECK LIVE?</div><h2>Save the trip.<br><em>Know first.</em></h2><p>The status is controlled by the shop owner. If the shop closes early, opens late, takes a break or stays open longer, the customer page reflects that update.</p><div class="trust"><b>✓</b><span>Live status from the shop owner</span></div><div class="trust"><b>✓</b><span>Opening / closing countdowns</span></div><div class="trust"><b>✓</b><span>Mobile-friendly and fast</span></div></div><div class="car-photo"><img src="assets/redcarhero.webp" alt="Car service centre"></div></div></section>
+<section class="visit" id="visit"><div class="container visit-card"><div><div class="eyebrow">VISIT JAIN AUTO</div><h2 id="visitName">Jain Auto Parts & Service Centre</h2><p id="address">Shop address will appear here after backend setup.</p></div><div class="visit-actions"><a class="btn primary" id="callBtn" href="tel:+919999999999">Call</a><a class="btn dark" id="mapBtn" target="_blank" rel="noopener" href="https://maps.google.com">Get Directions</a></div></div></section>
+</main>
+<footer><div class="container footer-in"><span>© <span id="year"></span> Jain Auto Parts & Service Centre</span><a href="admin.html">Owner / Admin Login</a></div></footer>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>

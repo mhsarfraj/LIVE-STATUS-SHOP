@@ -1,0 +1,20 @@
+JAIN AUTO - FIXED STATUS VERSION
+
+This version fixes the Owner Dashboard date behavior:
+- Next opening time is OPTIONAL.
+- Keep open until is OPTIONAL.
+- OPEN NOW can be saved without choosing a closing time.
+- CLOSE SHOP can be saved without choosing a next opening time.
+- ON BREAK can be saved without either time.
+- The Google Apps Script URL is already placed in config.js.
+
+To use this version:
+1. Extract this ZIP.
+2. Open the new car4 folder.
+3. Double-click index.html to test the customer site.
+4. Open Owner Login and sign in with your current Google Sheet credentials.
+5. Choose OPEN NOW, CLOSE SHOP, or ON BREAK.
+6. Click Update Live Status.
+7. Refresh the customer page.
+
+Note: This ZIP does not change your Google Sheet or Apps Script deployment.
